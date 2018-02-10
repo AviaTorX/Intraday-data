@@ -15,7 +15,7 @@ def Excutioner(ticker):
   data1.columns=['a','Open','High','Low','Close','Vol']
   result = {'Open':data1['Open'], 'High':data1['High'], 'Low':data1['Low'], 'Close':data1['Close']}
   frame = pd.DataFrame(data=result)
-  frame.to_csv('C:\\Users\\avinas\\Desktop\\Excelfile_name.csv', sep=',')
+  frame.to_csv('Excelfile_name.csv', sep=',')
   print "Done!!"
 
 
